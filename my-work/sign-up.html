@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Out-of-the-Box</title>
+</head>
+
+<body>
+    <header>
+        <h1>Out of the box</h1>
+        <nav class="main-menu">
+            <a href="index.html">Home</a>
+            <a href="conact.html">Contact us</a>
+        </nav>
+    </header>
+    <form class="form" action="index.html">
+        <h1>Sign Up</h1>
+        <h1>Create your account</h1>
+        <p>Welcome! Please fill in the details to get started.</p>
+        <div class="login-buttons">
+            <button class="btn btn-google" onclick="loginWithGoogle()">
+                <img src="images/google.jpg" alt="Google Logo" width="30px">
+                Login with Google
+            </button>
+
+            <button class="btn btn-facebook" onclick="loginWithFacebook()">
+                <img src="images/Facebook Lite-thumbnail.webp" alt="Facebook Logo" width="30px">
+                Login with Facebook
+            </button>
+        </div>
+        <p>or</p>
+        <div class="flex">
+            <label>
+                <input required type="text" placeholder="First Name" class="input">
+            </label>
+
+            <label>
+                <input required type="text" placeholder="Last Name" class="input">
+            </label>
+        </div>
+
+        <label>
+            <input required type="email" placeholder="Email" class="input">
+        </label>
+
+        <label>
+            <input required type="password" placeholder="Password" class="input">
+            <button class="cl-formFieldInputShowPasswordButton cl-button 🔒️ cl-internal-1r7rnyr"
+                aria-label="Hide password" tabindex="-1" data-variant="ghost" data-color="primary"><svg
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                    class="cl-formFieldInputShowPasswordIcon 🔒️ cl-internal-oaq42g">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.732 3.126a.48.48 0 0 0-.662.011.465.465 0 0 0-.012.651l9.211 9.063a.477.477 0 0 0 .527.115.479.479 0 0 0 .263-.26.46.46 0 0 0-.117-.518l-1.108-1.09A6.278 6.278 0 0 0 13.93 8.36a1.016 1.016 0 0 0 0-.74 6.27 6.27 0 0 0-2.333-2.909A6.428 6.428 0 0 0 8 3.613a6.407 6.407 0 0 0-3.014.747L3.732 3.126Zm2.84 2.794.694.682a1.61 1.61 0 0 1 1.858.28A1.54 1.54 0 0 1 9.41 8.71l.693.683a2.47 2.47 0 0 0-.304-3.174 2.573 2.573 0 0 0-3.226-.3Z">
+                    </path>
+                    <path
+                        d="m8.476 10.445 1.602 1.576a6.437 6.437 0 0 1-2.077.342c-2.705 0-5.014-1.662-5.931-4.006a1.016 1.016 0 0 1 0-.741c.31-.79.78-1.51 1.382-2.115l2.052 2.02c-.078.4-.054.813.067 1.203.122.39.34.744.632 1.033a2.58 2.58 0 0 0 2.272.688Z">
+                    </path>
+                </svg></button>
+        </label>
+
+        <label>
+            <input required type="password" placeholder="Confirm Password" class="input">
+            <button class="cl-formFieldInputShowPasswordButton cl-button 🔒️ cl-internal-1r7rnyr"
+                aria-label="Hide password" tabindex="-1" data-variant="ghost" data-color="primary"><svg
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                    class="cl-formFieldInputShowPasswordIcon 🔒️ cl-internal-oaq42g">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.732 3.126a.48.48 0 0 0-.662.011.465.465 0 0 0-.012.651l9.211 9.063a.477.477 0 0 0 .527.115.479.479 0 0 0 .263-.26.46.46 0 0 0-.117-.518l-1.108-1.09A6.278 6.278 0 0 0 13.93 8.36a1.016 1.016 0 0 0 0-.74 6.27 6.27 0 0 0-2.333-2.909A6.428 6.428 0 0 0 8 3.613a6.407 6.407 0 0 0-3.014.747L3.732 3.126Zm2.84 2.794.694.682a1.61 1.61 0 0 1 1.858.28A1.54 1.54 0 0 1 9.41 8.71l.693.683a2.47 2.47 0 0 0-.304-3.174 2.573 2.573 0 0 0-3.226-.3Z">
+                    </path>
+                    <path
+                        d="m8.476 10.445 1.602 1.576a6.437 6.437 0 0 1-2.077.342c-2.705 0-5.014-1.662-5.931-4.006a1.016 1.016 0 0 1 0-.741c.31-.79.78-1.51 1.382-2.115l2.052 2.02c-.078.4-.054.813.067 1.203.122.39.34.744.632 1.033a2.58 2.58 0 0 0 2.272.688Z">
+                    </path>
+                </svg></button>
+        </label>
+
+        <button type="submit" class="submit">Submit</button>
+        <p class="signin">Already have an account? <a href="sign-in.html">Sign in</a></p>
+    </form>
+</body>
+
+</html>
